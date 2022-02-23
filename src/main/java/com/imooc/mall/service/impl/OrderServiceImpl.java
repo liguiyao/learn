@@ -123,6 +123,10 @@ public class OrderServiceImpl implements OrderService {
         return pageInfo;
     }
 
+    public void cancelOrder(String orderNo) {
+
+    }
+
     private List<OrderVO> orderListToOrderVOList(List<Order> orderList) {
         List<OrderVO> orderVOS = new ArrayList<>();
         for (int i = 0; i < orderList.size(); i++) {
